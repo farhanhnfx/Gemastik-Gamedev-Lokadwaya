@@ -6066,7 +6066,7 @@ GameObject:
   - component: {fileID: 1216139742}
   - component: {fileID: 1216139741}
   m_Layer: 0
-  m_Name: Triangle
+  m_Name: item ha
   m_TagString: Item
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6106,8 +6106,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   type: 1
   java: ha
-  trans: Dibalik
-  desc: 
+  trans: ha
+  desc: Aksara Carakan "ha".
 --- !u!61 &1216139742
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7231,7 +7231,7 @@ GameObject:
   - component: {fileID: 1665072674}
   - component: {fileID: 1665072673}
   m_Layer: 0
-  m_Name: Triangle (1)
+  m_Name: item na
   m_TagString: Item
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7269,10 +7269,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0268249bf8304944fb92523b7e6bc6ea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  type: 2
+  type: 1
   java: na
-  trans: Item Dua
-  desc: 
+  trans: na
+  desc: Aksara Carakan "na".
 --- !u!61 &1665072674
 BoxCollider2D:
   m_ObjectHideFlags: 0

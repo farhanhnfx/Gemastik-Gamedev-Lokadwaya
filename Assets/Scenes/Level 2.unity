@@ -490,7 +490,7 @@ GameObject:
   - component: {fileID: 48779690}
   - component: {fileID: 48779689}
   m_Layer: 0
-  m_Name: Triangle (1)
+  m_Name: item ba
   m_TagString: Item
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -509,7 +509,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 286997442}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -529,9 +529,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: 1
-  java: ha
-  trans: Dibalik
-  desc: 
+  java: ba
+  trans: ba
+  desc: Aksara Carakan "ba".
 --- !u!61 &48779690
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1133,7 +1133,7 @@ GameObject:
   - component: {fileID: 101217638}
   - component: {fileID: 101217637}
   m_Layer: 0
-  m_Name: Triangle (4)
+  m_Name: item tha
   m_TagString: Item
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1152,7 +1152,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 286997442}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -1172,9 +1172,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: 1
-  java: ha
-  trans: Dibalik
-  desc: 
+  java: tha
+  trans: tha
+  desc: Aksara Carakan "tha".
 --- !u!61 &101217638
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2248,10 +2248,10 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1216139740}
-  - {fileID: 48779688}
-  - {fileID: 966168629}
   - {fileID: 1394343014}
+  - {fileID: 48779688}
   - {fileID: 101217636}
+  - {fileID: 966168629}
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -6122,7 +6122,7 @@ GameObject:
   - component: {fileID: 966168631}
   - component: {fileID: 966168630}
   m_Layer: 0
-  m_Name: Triangle (2)
+  m_Name: item nga
   m_TagString: Item
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6141,7 +6141,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 286997442}
-  m_RootOrder: 2
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -6161,9 +6161,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: 1
-  java: ha
-  trans: Dibalik
-  desc: 
+  java: nga
+  trans: nga
+  desc: Aksara Carakan "nga".
 --- !u!61 &966168631
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6726,7 +6726,7 @@ GameObject:
   - component: {fileID: 1216139742}
   - component: {fileID: 1216139741}
   m_Layer: 0
-  m_Name: Triangle
+  m_Name: item ma
   m_TagString: Item
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6765,9 +6765,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: 1
-  java: ha
-  trans: Dibalik
-  desc: 
+  java: ma
+  trans: ma
+  desc: Aksara Carakan "ma".
 --- !u!61 &1216139742
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7072,7 +7072,7 @@ GameObject:
   - component: {fileID: 1394343016}
   - component: {fileID: 1394343015}
   m_Layer: 0
-  m_Name: Triangle (3)
+  m_Name: item ga
   m_TagString: Item
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7091,11 +7091,11 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 286997442}
-  m_RootOrder: 3
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 8.6, y: -3.53}
+  m_AnchoredPosition: {x: 8.55, y: -3.48}
   m_SizeDelta: {x: 1.1771, y: 1.1771}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1394343015
@@ -7111,9 +7111,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: 1
-  java: ha
-  trans: Dibalik
-  desc: 
+  java: ga
+  trans: ga
+  desc: Aksara Carakan "ga".
 --- !u!61 &1394343016
 BoxCollider2D:
   m_ObjectHideFlags: 0

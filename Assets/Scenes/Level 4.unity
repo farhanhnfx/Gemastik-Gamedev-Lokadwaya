@@ -1754,8 +1754,8 @@ Transform:
   m_Children:
   - {fileID: 1216139740}
   - {fileID: 1680414761}
-  - {fileID: 1620588807}
   - {fileID: 480767188}
+  - {fileID: 1620588807}
   - {fileID: 1311924241}
   m_Father: {fileID: 0}
   m_RootOrder: 5
@@ -2801,7 +2801,7 @@ GameObject:
   - component: {fileID: 480767190}
   - component: {fileID: 480767189}
   m_Layer: 0
-  m_Name: Triangle (3)
+  m_Name: item wignyan
   m_TagString: Item
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2820,7 +2820,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 286997442}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -2839,10 +2839,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0268249bf8304944fb92523b7e6bc6ea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  type: 1
-  java: ha
-  trans: Dibalik
-  desc: 
+  type: 4
+  java: h
+  trans: Wignyan
+  desc: Aksara Sandhangan Konsonan Untuk Menambahkan Huruf "h" Setelah Aksara Carakan.
 --- !u!61 &480767190
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6455,7 +6455,7 @@ GameObject:
   - component: {fileID: 1216139742}
   - component: {fileID: 1216139741}
   m_Layer: 0
-  m_Name: Triangle
+  m_Name: item layar
   m_TagString: Item
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6493,10 +6493,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0268249bf8304944fb92523b7e6bc6ea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  type: 1
-  java: ha
-  trans: Dibalik
-  desc: 
+  type: 4
+  java: r
+  trans: Layar
+  desc: Aksara Sandhangan Konsonan Untuk Menambahkan Huruf "r" Setelah Aksara Carakan.
 --- !u!61 &1216139742
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7258,7 +7258,7 @@ GameObject:
   - component: {fileID: 1311924243}
   - component: {fileID: 1311924242}
   m_Layer: 0
-  m_Name: Triangle (4)
+  m_Name: item cakra
   m_TagString: Item
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7296,10 +7296,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0268249bf8304944fb92523b7e6bc6ea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  type: 1
-  java: ha
-  trans: Dibalik
-  desc: 
+  type: 4
+  java: ra
+  trans: Cakra
+  desc: Aksara Sandhangan Konsonan Untuk Menambahkan Kata "ra" pada Aksara Carakan
+    Sebelum Huruf Vokalnya.
 --- !u!61 &1311924243
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -8364,7 +8365,7 @@ GameObject:
   - component: {fileID: 1620588809}
   - component: {fileID: 1620588808}
   m_Layer: 0
-  m_Name: Triangle (2)
+  m_Name: item pangkon
   m_TagString: Item
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8383,7 +8384,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 286997442}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -8402,10 +8403,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0268249bf8304944fb92523b7e6bc6ea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  type: 1
-  java: ha
-  trans: Dibalik
-  desc: 
+  type: 4
+  java: /
+  trans: Pangkon
+  desc: Aksara Sandhangan Konsonan untuk Menghilangkan Huruf Vokal Suatu Aksara Carakan.
+    Hanya Bisa Digunakan Diakhir Kalimat.
 --- !u!61 &1620588809
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -8785,7 +8787,7 @@ GameObject:
   - component: {fileID: 1680414763}
   - component: {fileID: 1680414762}
   m_Layer: 0
-  m_Name: Triangle (1)
+  m_Name: item cecak
   m_TagString: Item
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8823,10 +8825,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0268249bf8304944fb92523b7e6bc6ea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  type: 1
-  java: ha
-  trans: Dibalik
-  desc: 
+  type: 4
+  java: ng
+  trans: Cecak
+  desc: Aksara Sandhangan Konsonan Untuk Menambahkan Huruf "ng" Setelah Aksara Carakan.
 --- !u!61 &1680414763
 BoxCollider2D:
   m_ObjectHideFlags: 0
