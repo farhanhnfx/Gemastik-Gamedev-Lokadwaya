@@ -1,0 +1,77 @@
+{
+    "setting":
+    [
+        {
+            "level": "1a",
+            "question": "cara",
+            "sideImgPath": null,
+            "sideAnswerKey": null,
+            "items": [
+                {
+                    "type": 1,
+                    "java": "ca"
+                },
+                {
+                    "type": 1,
+                    "java": "ra"
+                }
+            ]
+        },
+        {
+            "level": "1b",
+            "question": "babad alas mêrtani",
+            "sideImgPath": "Translate Quiz/1b",
+            "sideAnswerKey": "kala",
+            "items": [
+                {
+                    "type": 1,
+                    "java": "ba"
+                },
+                {
+                    "type": 1,
+                    "java": "ba"
+                },
+                {
+                    "type": 1,
+                    "java": "da"
+                },
+                {
+                    "type": 2,
+                    "java": "ha"
+                },
+                {
+                    "type": 1,
+                    "java": "la"
+                },
+                {
+                    "type": 1,
+                    "java": "sa"
+                },
+                {
+                    "type": 2,
+                    "java": "ma"
+                },
+                {
+                    "type": 3,
+                    "java": "ê"
+                },
+                {
+                    "type": 4,
+                    "java": "r"
+                },
+                {
+                    "type": 1,
+                    "java": "ta"
+                },
+                {
+                    "type": 1,
+                    "java": "na"
+                },
+                {
+                    "type": 3,
+                    "java": "i"
+                }
+            ]
+        }
+    ]
+}
