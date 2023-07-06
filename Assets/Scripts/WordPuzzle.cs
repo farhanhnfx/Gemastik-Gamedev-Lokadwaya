@@ -14,7 +14,7 @@ public class WordPuzzle : MonoBehaviour
     public string java;
     
     private void Start() {
-        img = GetComponentInChildren<Image>();
+        // img = GetComponentInChildren<Image>();
     }
     private void OnTriggerEnter2D(Collider2D other) {
         if (other.gameObject.CompareTag("PuzzleDrop")) {
@@ -44,19 +44,26 @@ public class WordPuzzle : MonoBehaviour
         if (puzzleDrop != null) {
             if (!puzzleDrop.isFilled) {
                 if (type == 1) {
-                    this.transform.position = puzzleDrop.transform.position;
-                    // puzzleDrop.isFilled = true;
                     puzzleDrop.FillKey(java);
                     isDropped = true;
+                    this.gameObject.SetActive(false);
                 }
             }
             else {
-                if (type != 1) {
-                    this.transform.position = puzzleDrop.transform.position;
-                    // puzzleText.text += puzzleDrop.key;
-                    // puzzleDrop.FillKey(java);
-                    puzzleDrop.addition.Push(java);
-                    isDropped = true;
+                // if (type != 1) {
+                //     this.transform.position = puzzleDrop.transform.position;
+                //     // puzzleText.text += puzzleDrop.key;
+                //     // puzzleDrop.FillKey(java);
+                //     // puzzleDrop.addition.Push(java);
+                //     // isDropped = true;
+                //     puzzleDrop.FillOtherKey(type, java);
+                //     this.gameObject.SetActive(false);
+                // }
+                if ((type == 2 && !puzzleDrop.isSecondFilled) ||
+                    (type == 3 && !puzzleDrop.isThirdFilled) ||
+                    (type == 4 && !puzzleDrop.isForthFilled)) {
+                    puzzleDrop.FillOtherKey(type, java);
+                    this.gameObject.SetActive(false);
                 }
             }
         }
@@ -68,8 +75,8 @@ public class WordPuzzle : MonoBehaviour
         else if (type == 2) {
             img.sprite = UIManager.Instance.pasangan[UIManager.Instance.AksaraToInt(java)];
         }
-        else if (type == 3) {
-
+        else if (type == 3 || type == 4) {
+            img.sprite = UIManager.Instance.GetSandhanganSprite(java);
         }
     }
 }

@@ -1,0 +1,285 @@
+{
+    "setting":
+    [
+        {
+            "level": "Level 0.a",
+            "question": "cara",
+            "sideImgPath": null,
+            "sideAnswerKey": null,
+            "items": [
+                {
+                    "type": 1,
+                    "java": "ca"
+                },
+                {
+                    "type": 1,
+                    "java": "ra"
+                }
+            ]
+        },
+        {
+            "level": "Level 0.b 1",
+            "question": "wanara",
+            "sideImgPath": "Translate Quiz/1b",
+            "sideAnswerKey": "kana",
+            "items": [
+                {
+                    "type": 1,
+                    "java": "wa"
+                },
+                {
+                    "type": 1,
+                    "java": "na"
+                },
+                {
+                    "type": 1,
+                    "java": "ra"
+                }
+            ]
+        },
+        {
+            "level": "Level 1",
+            "question": "ana pala",
+            "sideImgPath": "Translate Quiz/1b",
+            "sideAnswerKey": "kala",
+            "items": [
+                {
+                    "type": 1,
+                    "java": "ha"
+                },
+                {
+                    "type": 1,
+                    "java": "na"
+                },
+                {
+                    "type": 1,
+                    "java": "pa"
+                },
+                {
+                    "type": 1,
+                    "java": "la"
+                }
+            ]
+        },
+        {
+            "level": "Level 2",
+            "question": "bathara",
+            "sideImgPath": "Translate Quiz/1b",
+            "sideAnswerKey": "janaka",
+            "items": [
+                {
+                    "type": 1,
+                    "java": "ba"
+                },
+                {
+                    "type": 1,
+                    "java": "tha"
+                },
+                {
+                    "type": 1,
+                    "java": "ra"
+                }
+            ]
+        },
+        {
+            "level": "Level 3",
+            "question": "sima gêdhe",
+            "sideImgPath": "Translate Quiz/1b",
+            "sideAnswerKey": "gawa bala",
+            "items": [
+                {
+                    "type": 1,
+                    "java": "sa"
+                },
+                {
+                    "type": 1,
+                    "java": "ma"
+                },
+                {
+                    "type": 1,
+                    "java": "ga"
+                },
+                {
+                    "type": 1,
+                    "java": "dha"
+                },
+                {
+                    "type": 3,
+                    "java": "i"
+                },
+                {
+                    "type": 4,
+                    "java": "ê"
+                },
+                {
+                    "type": 4,
+                    "java": "e"
+                }
+            ]
+        },
+        {
+            "level": "Level 4",
+            "question": "kathah kang sumunar",
+            "sideImgPath": "Translate Quiz/1b",
+            "sideAnswerKey": "kula sinau",
+            "items": [
+                {
+                    "type": 1,
+                    "java": "ka"
+                },
+                {
+                    "type": 1,
+                    "java": "tha"
+                },
+                {
+                    "type": 1,
+                    "java": "ka"
+                },
+                {
+                    "type": 1,
+                    "java": "sa"
+                },
+                {
+                    "type": 1,
+                    "java": "ma"
+                },
+                {
+                    "type": 1,
+                    "java": "na"
+                },
+                {
+                    "type": 4,
+                    "java": "h"
+                },
+                {
+                    "type": 4,
+                    "java": "ng"
+                },
+                {
+                    "type": 3,
+                    "java": "u"
+                },
+                {
+                    "type": 3,
+                    "java": "u"
+                },
+                {
+                    "type": 4,
+                    "java": "r"
+                }
+            ]
+        },
+        {
+            "level": "Level 5",
+            "question": "babad alas mêrtani",
+            "sideImgPath": "Translate Quiz/1b",
+            "sideAnswerKey": "bêgawan durna",
+            "items": [
+                {
+                    "type": 1,
+                    "java": "ba"
+                },
+                {
+                    "type": 1,
+                    "java": "ba"
+                },
+                {
+                    "type": 1,
+                    "java": "da"
+                },
+                {
+                    "type": 2,
+                    "java": "ha"
+                },
+                {
+                    "type": 1,
+                    "java": "la"
+                },
+                {
+                    "type": 1,
+                    "java": "sa"
+                },
+                {
+                    "type": 2,
+                    "java": "ma"
+                },
+                {
+                    "type": 3,
+                    "java": "ê"
+                },
+                {
+                    "type": 4,
+                    "java": "r"
+                },
+                {
+                    "type": 1,
+                    "java": "ta"
+                },
+                {
+                    "type": 1,
+                    "java": "na"
+                },
+                {
+                    "type": 3,
+                    "java": "i"
+                }
+            ]
+        },
+        {
+            "level": "Prototype Mechanic",
+            "question": "babad alas mêrtani",
+            "sideImgPath": "Translate Quiz/1b",
+            "sideAnswerKey": "kala",
+            "items": [
+                {
+                    "type": 1,
+                    "java": "ba"
+                },
+                {
+                    "type": 1,
+                    "java": "ba"
+                },
+                {
+                    "type": 1,
+                    "java": "da"
+                },
+                {
+                    "type": 2,
+                    "java": "ha"
+                },
+                {
+                    "type": 1,
+                    "java": "la"
+                },
+                {
+                    "type": 1,
+                    "java": "sa"
+                },
+                {
+                    "type": 2,
+                    "java": "ma"
+                },
+                {
+                    "type": 3,
+                    "java": "ê"
+                },
+                {
+                    "type": 4,
+                    "java": "r"
+                },
+                {
+                    "type": 1,
+                    "java": "ta"
+                },
+                {
+                    "type": 1,
+                    "java": "na"
+                },
+                {
+                    "type": 3,
+                    "java": "i"
+                }
+            ]
+        }
+    ]
+}

@@ -116,6 +116,7 @@ public class PlayerController : MonoBehaviour
     private void PickUpItem(Item item) {
         item.gameObject.SetActive(false);
         LevelManager.Instance.itemsCollected.Add(item);
+        LevelManager.Instance.UpdateItemsCount();
         // UIManager.Instance.itemRevealAnim.transform.GetChild(0).GetComponent<Text>().text = item.java;
         // UIManager.Instance.itemRevealAnim.transform.GetChild(1).GetComponent<Text>().text = item.trans;
         UIManager.Instance.setRevealed(item);
@@ -124,19 +125,26 @@ public class PlayerController : MonoBehaviour
         UIManager.Instance.closeInteract.gameObject.SetActive(true);
         anim.Play("Player_interact");
         Debug.Log("Player picked up an item!");
+        Inventory.Instance.AddItem(item);
     }
-    private void OpenGate()
+    private void OpenQuiz(bool isPuzzle)
     {
         UIManager.Instance.quizContainer.gameObject.SetActive(true);
+        if (isPuzzle) {
+            LevelManager.Instance.quiz.GeneratePuzzle();
+        }
+        else {
+            LevelManager.Instance.quiz.GenerateTranslate();
+        }
         anim.Play("Player_interact");
     }
     private void OnEnable() {
         Item.OnPickedUp += PickUpItem;
-        LevelGate.OnInteract += OpenGate;
+        LevelGate.OnInteract += OpenQuiz;
     }
 
     private void OnDisable() {
         Item.OnPickedUp -= PickUpItem;
-        LevelGate.OnInteract -= OpenGate;
+        LevelGate.OnInteract -= OpenQuiz;
     }
 }

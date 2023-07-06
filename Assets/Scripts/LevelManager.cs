@@ -13,9 +13,11 @@ public class LevelManager : MonoBehaviour
     public float timeRemaining;
     public bool isOver;
     public Text timeUI;
+    public Text itemsCountText;
     private float minutes;
     private float seconds;
     private BoxCollider2D bgColl;
+    public Quiz quiz;
     // public Quiz quiz;
 
     private void Awake() {
@@ -33,6 +35,7 @@ public class LevelManager : MonoBehaviour
         player = GameObject.Find("Player");
         bgColl = GameObject.Find("Background").GetComponent<BoxCollider2D>();
         isOver = false;
+        Invoke(nameof(UpdateItemsCount), 0.125f);
     }
 
     // Update is called once per frame
@@ -58,6 +61,7 @@ public class LevelManager : MonoBehaviour
             // muncul retry
             // reload scene
         }
+        // UpdateItemsCount();
     }
 
     private void UpdateTimeUI(float time)
@@ -66,6 +70,9 @@ public class LevelManager : MonoBehaviour
         minutes = Mathf.FloorToInt(time/60);
         seconds = Mathf.FloorToInt(time%60);
         timeUI.text = string.Format("{0:00}:{1:00}", minutes, seconds);
+    }
+    public void UpdateItemsCount() {
+        itemsCountText.text = $"{itemsCollected.Count}/{itemsDrop.Count}";
     }
     private bool PlayerFall() {
         if (player.transform.position.y < bgColl.bounds.min.y) {

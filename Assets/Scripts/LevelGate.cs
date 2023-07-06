@@ -6,7 +6,7 @@ public class LevelGate : MonoBehaviour
 {
     private bool playerContact;
     private UIManager UIManager;
-    public delegate void Interact();
+    public delegate void Interact(bool isPuzzle);
     public static Interact OnInteract;
 
     private void Start() {
@@ -18,7 +18,7 @@ public class LevelGate : MonoBehaviour
         if ((Input.GetKeyDown(KeyCode.E) || UIManager.doInteract.isPressed)
              && playerContact) {
             if (OnInteract != null) {
-                OnInteract();
+                OnInteract(isPuzzle:true);
                 Debug.Log("Player opening the gate: quiz unlocked");
             }
         }

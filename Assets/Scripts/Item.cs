@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class Item : MonoBehaviour
 {
-    [Range(1, 3)]public int type = 1; // 1: carakan, 2: sandhangan, 3: pasangan?
+    [Range(1, 4)]public int type = 1; // 1: carakan, 2: pasangan, 3: sandhangan vokal, 4: sandhangan konsonan
     public string java;
     public string trans;
     public string desc;
@@ -20,7 +20,9 @@ public class Item : MonoBehaviour
     {
         playerContact = false;
         // levelManager = GameObject.Find("Level Manager").GetComponent<LevelManager>();
-        LevelManager.Instance.itemsDrop.Add(this);
+        if (this.transform.parent.name == "Item Location") {
+            LevelManager.Instance.itemsDrop.Add(this);
+        }
     }
 
     // Update is called once per frame
